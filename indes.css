@@ -7,6 +7,11 @@
 
 body {
   background-color: #ffeedf;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+body::-webkit-scrollbar {
+  display: none;
 }
 
 .material-icons {

@@ -11,6 +11,11 @@ $secondary-background-color: #145434;
 
 body {
   background-color: $primary-background-color;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  &::-webkit-scrollbar {
+    display: none;
+  }
 }
 .material-icons {
   font-size: 36px;
