@@ -2,12 +2,12 @@ console.log(beers)
 
 const Card = ({ title, sub, text }, index) => {
   return `
-      <div>
-        <div>${index}</div>
+      <div class="card">
+        <div id="${index + 1}">${index + 1}</div>
         <h2>${title}</h2>
         <h4>${sub}</h4>
         <p>${text}</p>
-        <button>details</button>
+        <button>details </button>
       </div>`
 }
 
