@@ -7,7 +7,7 @@ const Card = ({ title, sub, text }, index) => {
         <h2>${title}</h2>
         <h4>${sub}</h4>
         <p>${text}</p>
-        <button>details </button>
+        <button>details  <span class="material-icons">arrow_forward</span></button>
       </div>`
 }
 

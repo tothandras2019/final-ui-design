@@ -9,6 +9,10 @@ body {
   background-color: #ffeedf;
 }
 
+.material-icons {
+  font-size: 36px;
+}
+
 nav {
   position: fixed;
   top: 0;
@@ -21,6 +25,7 @@ nav {
   padding: 10px;
   box-sizing: border-box;
   background-color: #ffeedf;
+  color: #145434;
   border-bottom: 1px solid grey;
   z-index: 100;
 }
@@ -83,6 +88,12 @@ nav {
   background-color: #ffeedf;
   border: 2px solid #145434;
   color: #145434;
+}
+.card-container .card button span {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
 }
 .card-container .card button:hover {
   color: #ffeedf;
