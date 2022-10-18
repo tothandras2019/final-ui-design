@@ -13,6 +13,7 @@ body {
   background-color: $primary-background-color;
   -ms-overflow-style: none;
   scrollbar-width: none;
+
   &::-webkit-scrollbar {
     display: none;
   }
@@ -95,6 +96,7 @@ nav {
       background-color: $primary-background-color;
       border: 2px solid $secondary-background-color;
       color: $secondary-background-color;
+      cursor: pointer;
 
       span {
         position: absolute;

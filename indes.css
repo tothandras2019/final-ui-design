@@ -93,6 +93,7 @@ nav {
   background-color: #ffeedf;
   border: 2px solid #145434;
   color: #145434;
+  cursor: pointer;
 }
 .card-container .card button span {
   position: absolute;
